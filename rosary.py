@@ -1,8 +1,10 @@
 import datetime, webbrowser
 from datetime import timedelta
+#from datetime import datetime
+#-> TODO: change datetime.datetime.now() into datetime.date() object
 
 #Get today's day of the week
-Today = datetime.datetime.now()
+Today = datetime.date(2020, 7,12) #datetime.datetime.now() #datetime.date(datetime.now())
 DayOfWeek = Today.weekday() #0 = Monday, 6 = Sunday
 Year = Today.year
 
